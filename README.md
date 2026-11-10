@@ -2,6 +2,8 @@
 
 An on-chain collaborative 10 × 10 pixel wall built for **BOT Chain Testnet**.
 
+📄 Read the **[Technical Whitepaper](./WHITEPAPER.md)** for protocol design, contract architecture, storage layout, and security guarantees.
+
 Visitors connect their wallet via **Reown AppKit**, pick an unclaimed tile (`#0`–`#99`), select an RGB colour, optionally attach a message (up to 40 characters), and submit a non-payable transaction to claim that tile permanently on-chain. **Every contract interaction requires network gas only — zero protocol fees or BOT value transfers.**
 
 ---
